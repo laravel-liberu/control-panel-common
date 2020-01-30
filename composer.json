@@ -1,0 +1,33 @@
+{
+    "name": "laravel-enso/control-panel-common",
+    "description": "Control Panel Common for Laravel Enso",
+    "keywords": [
+        "laravel-enso",
+        "controlpanel",
+        "laravel"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Adrian Ocneanu",
+            "email": "aocneanu@gmail.com",
+            "homepage": "https://laravel-enso.com",
+            "role": "Developer"
+        },
+        {
+            "name": "Reza Fouladi",
+            "email": "raftx24@gmail.com",
+            "homepage": "https://laravel-enso.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "laravel-enso/helpers": "1.15.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelEnso\\ControlPanelCommon\\": "src/"
+        }
+    }
+}
