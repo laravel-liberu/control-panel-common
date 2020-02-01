@@ -12,8 +12,7 @@ class Action extends JsonResource
             'id' => $this->id(),
             'label' => $this->label(),
             'icon' => $this->icon(),
-            'tooltip' => __($this->tooltip()),
-            'description' => __($this->description()),
+            'tooltip' => $this->tooltip(),
             'confirmation' => $this->confirmation(),
             'order' => $this->order(),
         ];

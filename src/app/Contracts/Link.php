@@ -12,9 +12,7 @@ interface Link
 
     public function tooltip(): ?string;
 
-    public function description(): ?string;
-
-    public function icon();
+    public function icon(): array;
 
     public function order(): int;
 }

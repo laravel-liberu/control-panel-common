@@ -3,6 +3,7 @@
 namespace LaravelEnso\ControlPanelCommon\App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
+use Illuminate\Support\Str;
 
 class Link extends JsonResource
 {
@@ -10,11 +11,10 @@ class Link extends JsonResource
     {
         return [
             'id' => $this->id(),
-            'label' => ucfirst(__($this->label())),
+            'label' => Str::ucfirst($this->label()),
             'url' => $this->url(),
             'icon' => $this->icon(),
-            'tooltip' => __($this->tooltip()),
-            'description' => __($this->description()),
+            'tooltip' => $this->tooltip(),
             'order' => $this->order(),
         ];
     }

@@ -10,9 +10,7 @@ interface Sensor
 
     public function tooltip(): string;
 
-    public function description(): ?string;
-
-    public function icon();
+    public function icon(): array;
 
     public function class(): string;
 

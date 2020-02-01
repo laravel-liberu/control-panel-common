@@ -12,8 +12,7 @@ class Sensor extends JsonResource
             'id' => $this->id(),
             'value' => $this->value(),
             'icon' => $this->icon(),
-            'tooltip' => __($this->tooltip()),
-            'description' => __($this->description()),
+            'tooltip' => $this->tooltip(),
             'class' => $this->class(),
             'order' => $this->order(),
         ];
