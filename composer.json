@@ -23,7 +23,7 @@
         }
     ],
     "require": {
-        "laravel-enso/helpers": "1.15.*"
+        "laravel-enso/helpers": "^2.0"
     },
     "autoload": {
         "psr-4": {

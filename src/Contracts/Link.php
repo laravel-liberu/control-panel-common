@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\App\Contracts;
+namespace LaravelEnso\ControlPanelCommon\Contracts;
 
 interface Link
 {

@@ -1,19 +1,19 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\App\Http\Resources;
+namespace LaravelEnso\ControlPanelCommon\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class Sensor extends JsonResource
+class Action extends JsonResource
 {
     public function toArray($request)
     {
         return [
             'id' => $this->id(),
-            'value' => $this->value(),
+            'label' => $this->label(),
             'icon' => $this->icon(),
             'tooltip' => $this->tooltip(),
-            'class' => $this->class(),
+            'confirmation' => $this->confirmation(),
             'order' => $this->order(),
         ];
     }
