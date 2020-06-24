@@ -6,7 +6,7 @@ use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Classes\Obj;
+use LaravelEnso\Helpers\Services\Obj;
 
 class Group extends JsonResource
 {
