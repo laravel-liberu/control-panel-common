@@ -22,7 +22,7 @@ class Group extends JsonResource
 
     private function sensors($request)
     {
-        return (new Collection($this->resource->sensors()))
+        return Collection::wrap($this->resource->sensors())
             ->map(fn ($sensor) => $this->sensor($request, $sensor));
     }
 
