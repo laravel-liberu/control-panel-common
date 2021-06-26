@@ -4,7 +4,7 @@ namespace LaravelEnso\ControlPanelCommon\Contracts;
 
 interface Link
 {
-    public function id();
+    public function id(): string;
 
     public function label(): string;
 

@@ -4,9 +4,9 @@ namespace LaravelEnso\ControlPanelCommon\Contracts;
 
 interface Action
 {
-    public function id();
+    public function id(): string;
 
-    public function handle();
+    public function handle(): array;
 
     public function label(): string;
 
