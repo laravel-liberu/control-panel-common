@@ -1,8 +1,8 @@
 {
-    "name": "laravel-enso/control-panel-common",
+    "name": "cgdsoftware/control-panel-common",
     "description": "Control Panel Common for Laravel Enso",
     "keywords": [
-        "laravel-enso",
+        "cgdsoftware",
         "controlpanel",
         "laravel"
     ],
@@ -12,18 +12,18 @@
         {
             "name": "Adrian Ocneanu",
             "email": "aocneanu@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         },
         {
             "name": "Reza Fouladi",
             "email": "raftx24@gmail.com",
-            "homepage": "https://laravel-enso.com",
+            "homepage": "https://cgdsoftware.com",
             "role": "Developer"
         }
     ],
     "require": {
-        "laravel-enso/helpers": "^2.0"
+        "cgdsoftware/helpers": "^2.0"
     },
     "autoload": {
         "psr-4": {
