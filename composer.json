@@ -29,5 +29,8 @@
         "psr-4": {
             "LaravelEnso\\ControlPanelCommon\\": "src/"
         }
+    },
+    "require-dev": {
+        "rector/rector": "^0.17.0"
     }
 }
