@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\Services;
+namespace LaravelLiberu\ControlPanelCommon\Services;
 
 use Illuminate\Support\Str;
 use ReflectionClass;

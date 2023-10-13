@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\Contracts;
+namespace LaravelLiberu\ControlPanelCommon\Contracts;
 
 interface Sensor
 {

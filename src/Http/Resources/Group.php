@@ -1,12 +1,12 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\Http\Resources;
+namespace LaravelLiberu\ControlPanelCommon\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Collection;
 use Illuminate\Support\Facades\App;
 use Illuminate\Support\Str;
-use LaravelEnso\Helpers\Services\Obj;
+use LaravelLiberu\Helpers\Services\Obj;
 
 class Group extends JsonResource
 {

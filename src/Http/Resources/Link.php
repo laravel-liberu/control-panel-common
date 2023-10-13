@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelEnso\ControlPanelCommon\Http\Resources;
+namespace LaravelLiberu\ControlPanelCommon\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use Illuminate\Support\Str;

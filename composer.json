@@ -27,7 +27,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelEnso\\ControlPanelCommon\\": "src/"
+            "LaravelLiberu\\ControlPanelCommon\\": "src/"
         }
     },
     "require-dev": {
