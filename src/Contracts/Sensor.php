@@ -2,7 +2,7 @@
 
 namespace LaravelLiberu\ControlPanelCommon\Contracts;
 
-interface Sensor
+interface Sliberur
 {
     public function id(): string;
 

@@ -15,21 +15,21 @@ class Group extends JsonResource
         return [
             'id' => $this->id(),
             'label' => Str::ucfirst($this->label()),
-            'sensors' => Sensor::collection($this->sensors($request)),
+            'sliberurs' => Sliberur::collection($this->sliberurs($request)),
             'order' => $this->order(),
         ];
     }
 
-    private function sensors($request)
+    private function sliberurs($request)
     {
-        return Collection::wrap($this->resource->sensors())
-            ->map(fn ($sensor) => $this->sensor($request, $sensor));
+        return Collection::wrap($this->resource->sliberurs())
+            ->map(fn ($sliberur) => $this->sliberur($request, $sliberur));
     }
 
-    private function sensor($request, $sensor)
+    private function sliberur($request, $sliberur)
     {
-        return is_string($sensor)
-            ? App::make($sensor, ['params' => new Obj($request->all())])
-            : $sensor;
+        return is_string($sliberur)
+            ? App::make($sliberur, ['params' => new Obj($request->all())])
+            : $sliberur;
     }
 }

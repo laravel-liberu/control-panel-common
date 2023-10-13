@@ -8,7 +8,7 @@ interface Group
 
     public function label(): string;
 
-    public function sensors(): array;
+    public function sliberurs(): array;
 
     public function order(): int;
 }
