@@ -4,7 +4,7 @@ namespace LaravelLiberu\ControlPanelCommon\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 
-class Sliberur extends JsonResource
+class Sensor extends JsonResource
 {
     public function toArray($request)
     {
