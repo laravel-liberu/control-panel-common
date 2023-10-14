@@ -15,7 +15,7 @@ class Group extends JsonResource
         return [
             'id' => $this->id(),
             'label' => Str::ucfirst($this->label()),
-            'sliberurs' => Sliberur::collection($this->sliberurs($request)),
+            'sliberurs' => Sensor::collection($this->sliberurs($request)),
             'order' => $this->order(),
         ];
     }
